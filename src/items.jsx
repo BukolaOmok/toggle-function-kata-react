@@ -1,4 +1,4 @@
-const items = [
+export default[
     { id: 1, word: "apple", emoji: "", isOn: false },
     { id: 2, word: "banana", emoji: "", isOn: false },
     { id: 3, word: "car", emoji: "", isOn: false },
@@ -27,4 +27,3 @@ const items = [
     { id: 26, word: "zebra", emoji: "", isOn: false },
   ];
   
-  export default items;
