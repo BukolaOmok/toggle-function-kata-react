@@ -1,20 +1,21 @@
-
-import { useState } from "react";
+import React from "react";
 import items from "./items";
 import Tile from "./tile";
 import "./App.css";
 
 export default function App() {
-  const [tilings, setTilings] = useState(items);
+  const [tilings, setTilings] = React.useState(items);
  
-  const tileElements = tilings.map((tiling) => (
+  const tileContents = tilings.map((tiling) => (
     <Tile 
-    key={tile.id} 
-    word = {tile.word}
-    emoji = {tile.emoji}
-    isOn={tile.isOn} 
+    key={tiling.id} 
+    word = {tiling.word}
+    emoji = {tiling.emoji}
+    isOn={tiling.isOn} 
     />
   ));
 
-  return <main>{tileElements}</main>;
+  return <main>
+    <p>{tileContents}</p>
+    </main>;
 }
