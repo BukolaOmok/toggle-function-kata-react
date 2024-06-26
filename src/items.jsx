@@ -7,7 +7,7 @@ export default [
   { id: 6, word: "frog", emoji: "🐸", isOn: true },
   { id: 7, word: "grape", emoji: "🍇", isOn: true },
   { id: 8, word: "hat", emoji: "🎩", isOn: true },
-  { id: 9, word: "ice cream", emoji: "🍦, isOn :true" },
+  { id: 9, word: "ice cream", emoji: "🍦", isOn :true },
   { id: 10, word: "juice", emoji: "🧃", isOn: true },
   { id: 11, word: "kite", emoji: "🪁", isOn: true },
   { id: 12, word: "lion", emoji: "🦁", isOn: true },
