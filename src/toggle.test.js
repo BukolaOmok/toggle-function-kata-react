@@ -1,6 +1,6 @@
-import { expect, test } from "@jest/globals";
+
 import { toggle } from "./toggle";
-import originalCharactersArray from "./originalCharactersArray";
+import {originalCharactersArray} from "./originalCharactersArray";
 
 test("toggle hulk on", () => {
     const newArray = toggle("hk", originalCharactersArray);
@@ -22,6 +22,7 @@ test("toggle hulk on", () => {
 });
 
 test("toggle godzilla off", () => {
+
 
     const newArray = toggle("gz", originalCharactersArray);
 
